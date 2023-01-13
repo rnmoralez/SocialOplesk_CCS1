@@ -1,0 +1,90 @@
+:root {
+  --color-primary: #99c5c8;
+  --color-secondary: #ccc;
+  --color-dark: #343537;
+  --color-light: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 10.9pt;
+  color: #ccc;
+}
+
+.bg-primary {
+  background-color: #99c5c8;
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+}
+
+.color-primary {
+  color: #99c5c8;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  display: grid;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  border-radius: 6px;
+  grid-template-columns: 30% 70%;
+}
+
+i {
+  margin-right: 6px;
+}
+
+.border-imagen {
+  border: 3px solid white;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  position: relative;
+  left: 47%;
+  top: 25%;
+}
+
+.imagen {
+  background-image: url(./reto_css_2.png);
+  background-position: right center;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-size: 157%;
+}
+
+.text-field {
+  margin: 50px 30px 50px 100px;
+}
+
+p {
+  color: #ccc;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+li {
+  margin-top: 10px;
+}
